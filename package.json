@@ -1,0 +1,26 @@
+{
+  "name": "ock-helpers",
+  "version": "1.0.0",
+  "description": "A collection of helpers to boost the development speed and code share",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ockpaydev/ock-helpers.git"
+  },
+  "keywords": [
+    "helpers",
+    "functions"
+  ],
+  "author": "Joao Mantovani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ockpaydev/ock-helpers/issues"
+  },
+  "homepage": "https://github.com/ockpaydev/ock-helpers#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}

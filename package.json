@@ -1,6 +1,6 @@
 {
   "name": "ock-helpers",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A collection of helpers to boost the development speed and code share",
   "main": "index.js",
   "scripts": {

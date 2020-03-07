@@ -1,4 +1,5 @@
 const addCurrency = require('./addCurrency')
+const parseCurrencyToFloat = require('./parseCurrencyToFloat')
 
 /**
  * Format a number (float) to a BRL currency according to ABNT
@@ -9,8 +10,8 @@ const addCurrency = require('./addCurrency')
  */
 module.exports = price => {
   let strPrice = (price || 0).toLocaleString('pt-BR')
+  strPrice = strPrice.replace('.', ',')
   strPrice = addCurrency(strPrice)
-
   const decimals = strPrice.split(',')[1]
   const hasComma = decimals !== undefined
 
